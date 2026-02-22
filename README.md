@@ -1,10 +1,18 @@
+<div align="center">
+
+<img src="assets/deepagents-cli-skill.webp" alt="deepagents CLI Agent Skill" width="640">
+
+<br>
+
 # deepagents CLI -- Agent Skill
 
-**One skill. Four platforms.** The complete deepagents CLI reference and usage guide, packaged as an Agent Skill for every major coding agent.
+**One skill. Four platforms.** The complete deepagents CLI reference and usage guide,<br>packaged as an Agent Skill for every major coding agent.
 
 [![Platforms](https://img.shields.io/badge/platforms-4-0969da?style=flat-square)](https://github.com/Gitmaxd/deepagents-cli-skills)
 [![License](https://img.shields.io/badge/license-MIT-22863a?style=flat-square)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-v1-6f42c1?style=flat-square)](https://agentskills.io)
+
+</div>
 
 ---
 
