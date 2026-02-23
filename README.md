@@ -20,6 +20,16 @@
 
 The deepagents CLI skill gives your coding agent comprehensive knowledge of the [deepagents](https://github.com/langchain-ai/deepagents) terminal assistant -- including session configuration, provider setup, memory management, skill authoring, sandbox execution, and workflow automation. Each variant below is the **same skill** adapted for a specific agent platform's filesystem conventions and invocation patterns.
 
+### Why This Skill?
+
+This isn't just a documentation reference. When your coding agent has this skill loaded, it can actively help you **work with deepagents** -- not just answer questions about it.
+
+- **Learn by building.** Ask your agent to walk you through deepagents concepts, then have it set up a session, configure providers, or scaffold a skill -- all from within your current editor.
+- **Author custom agents.** The skill includes the full SDK reference for `create_deep_agent()`, middleware, subagents, and backends. Your agent can help you design and implement specialized deepagents workflows tailored to your stack.
+- **Extend deepagents itself.** Clone the [deepagents repo](https://github.com/langchain-ai/deepagents), install this skill, and let your coding agent help you customize the framework -- adding tools, modifying behavior, or building production pipelines.
+
+The skill covers everything from first launch to programmatic customization, so your agent grows with you.
+
 ### Quick Reference
 
 | Platform | Install | npm |
