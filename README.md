@@ -24,10 +24,10 @@ The deepagents CLI skill gives your coding agent comprehensive knowledge of the 
 
 | Platform | Install | npm |
 |:---------|:--------|:----|
-| **deepagents** | `npx deepagents-cli-deepagents-skill install` | [![npm](https://img.shields.io/npm/v/deepagents-cli-deepagents-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-deepagents-skill) |
-| **Claude** | `npx deepagents-cli-claude-skill install` | [![npm](https://img.shields.io/npm/v/deepagents-cli-claude-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-claude-skill) |
-| **Codex** | `npx deepagents-cli-codex-skill install` | [![npm](https://img.shields.io/npm/v/deepagents-cli-codex-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-codex-skill) |
-| **Droid** | `npx deepagents-cli-droid-skill install` | [![npm](https://img.shields.io/npm/v/deepagents-cli-droid-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-droid-skill) |
+| **deepagents** | `npx deepagents-cli-deepagents-skill init` | [![npm](https://img.shields.io/npm/v/deepagents-cli-deepagents-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-deepagents-skill) |
+| **Claude** | `npx deepagents-cli-claude-skill init` | [![npm](https://img.shields.io/npm/v/deepagents-cli-claude-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-claude-skill) |
+| **Codex** | `npx deepagents-cli-codex-skill init` | [![npm](https://img.shields.io/npm/v/deepagents-cli-codex-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-codex-skill) |
+| **Droid** | `npx deepagents-cli-droid-skill init` | [![npm](https://img.shields.io/npm/v/deepagents-cli-droid-skill?style=flat-square&label=)](https://www.npmjs.com/package/deepagents-cli-droid-skill) |
 
 ---
 
@@ -46,11 +46,11 @@ For the LangGraph [deepagents](https://github.com/langchain-ai/deepagents) frame
 
 | | |
 |:--|:--|
-| **Install** | `npx deepagents-cli-deepagents-skill install` |
+| **Install** | `npx deepagents-cli-deepagents-skill init` |
 | **Personal path** | `~/.deepagents/<agent>/skills/deepagents-cli/` |
 | **Workspace path** | `.deepagents/skills/deepagents-cli/` |
 | **Invoke** | Auto-discovered -- verify with `deepagents skills list` |
-| **Named agent** | `npx deepagents-cli-deepagents-skill install --agent my-agent` |
+| **Named agent** | `npx deepagents-cli-deepagents-skill init --agent my-agent` |
 | **GitHub** | [Gitmaxd/deepagents-cli-deepagents-skill](https://github.com/Gitmaxd/deepagents-cli-deepagents-skill) |
 
 </td></tr>
@@ -69,7 +69,7 @@ For Claude Code, Claude Desktop, and claude.ai. Install via CLI or download the 
 
 | | |
 |:--|:--|
-| **Install** | `npx deepagents-cli-claude-skill install` |
+| **Install** | `npx deepagents-cli-claude-skill init` |
 | **Personal path** | `~/.claude/skills/deepagents-cli/` |
 | **Workspace path** | `.claude/skills/deepagents-cli/` |
 | **Invoke** | `/deepagents-cli` |
@@ -95,7 +95,7 @@ For OpenAI Codex. Filesystem-based skill loading with support for the `$skill-in
 
 | | |
 |:--|:--|
-| **Install** | `npx deepagents-cli-codex-skill install` |
+| **Install** | `npx deepagents-cli-codex-skill init` |
 | **Personal path** | `~/.agents/skills/deepagents-cli/` |
 | **Workspace path** | `.agents/skills/deepagents-cli/` |
 | **Invoke** | `$deepagents-cli` |
@@ -118,7 +118,7 @@ For Factory.ai Droid. This is the original, authoritative version of the skill.
 
 | | |
 |:--|:--|
-| **Install** | `npx deepagents-cli-droid-skill install` |
+| **Install** | `npx deepagents-cli-droid-skill init` |
 | **Personal path** | `~/.factory/skills/deepagents-cli/` |
 | **Workspace path** | `.factory/skills/deepagents-cli/` |
 | **Invoke** | `/deepagents-cli` |
